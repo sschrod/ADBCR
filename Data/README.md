@@ -1,0 +1,2 @@
+Running the provided example files requires the download of the IHDP and NEWS dataset, both can be obtained from [https://www.fredjo.com/](https://www.fredjo.com/).
+Simply download the [IHDP-1000(train)](https://www.fredjo.com/files/ihdp_npci_1-1000.train.npz.zip), [IHDP-1000(test)](https://www.fredjo.com/files/ihdp_npci_1-1000.test.npz.zip) and [News](https://www.fredjo.com/files/NEWS_csv.zip) and save the extracted files to this folder.

@@ -1,0 +1,5 @@
+/Data/*
+!/Data/README.md
+/saved_models/*
+*/__pycache__/*
+Commands.md

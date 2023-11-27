@@ -1,0 +1,15 @@
+FROM nvidia/cuda:11.7.1-cudnn8-runtime-ubuntu20.04
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    python3.8-dev \
+    python3-pip \
+    libffi-dev \
+    build-essential
+
+WORKDIR /mnt
+
+RUN pip3 install torch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0
+Run pip3 install ray[default]==1.8
+RUN pip3 install ray[tune]==1.8
+RUN pip3 install --upgrade protobuf==3.20.0
+RUN pip3 install scikit-learn==1.1.3
